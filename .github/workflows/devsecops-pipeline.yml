@@ -41,7 +41,7 @@ jobs:
         uses: docker/login-action@v4
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: karinkiller03
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push multi-arch Docker image
